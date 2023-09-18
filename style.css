@@ -10,12 +10,25 @@ body{
 	line-height: 1.7;
 	color: #c4c3ca;
 	background-image: url(Backgroung.jpg);
-
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#464646;
 	overflow-x: hidden;
 }
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url(Backgroung.jpg);
+  }
+	}
 a {
 	cursor: pointer;
   transition: all 200ms linear;
+  color: #f5ee28;
+  font-size: large;
+  font-weight: 400;
+
 }
 a:hover {
 	text-decoration: none;
